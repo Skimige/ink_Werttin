@@ -6,7 +6,9 @@
 
 #### 下载
 
-见 Release 页面 （此坑未填好）
+见 [Release 页面](https://github.com/Skimige/ink_Werttin/releases) 。
+
+> 目前的最新版本：Beta @ 1.0
 
 #### 功能
 
@@ -41,13 +43,19 @@ more..
 
 ```
     copy:
-        - ink_Werttin/css
-        - ink_Werttin/js
-        - ink_Werttin/favicon.ico
-        - ink_Werttin/robots.txt
+        - **ink_Werttin**/css
+        - **ink_Werttin**/js
+        - **ink_Werttin**/favicon.ico
+        - **ink_Werttin**/robots.txt
         - source/images
 ``` 
+
+另：注意 `Disqus ID` 和 `Avatar` 等条目~
 
 ## License
 
 遵循 [Apache License 2.0](https://github.com/Skimige/ink_Werttin/blob/master/LICENSE)
+
+## 后记
+
+这是本人第一个正式一点的 Repo ，也不求骗几个 Star 了，求别吐槽就行……
