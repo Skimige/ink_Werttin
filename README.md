@@ -16,4 +16,4 @@ An ink theme based on offical theme.
 
 ## License
 
-遵循 [Apache License 2.0](./blob/master/LICENSE)
+遵循 [Apache License 2.0](./LICENSE)
