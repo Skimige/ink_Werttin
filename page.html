@@ -27,7 +27,6 @@
                     {{range .Articles}}
                     <li class="article">
                         <a class="title" href="{{$.Site.Root}}/{{.Link}}">{{if .Top}}<span class="top">[{{i18n "top"}}]</span>{{end}}{{.Title}}</a>
-                        {{if .Topic}}<div class="topic" style="background-image:url({{.Topic}});"></div>{{end}}
                         {{if .Preview}}<section class="preview">{{.Preview}}...</section>{{end}}
                         <section class="info">
                             <span class="date" data-time="{{.Date}}">

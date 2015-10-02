@@ -25,3 +25,9 @@ next_reading:
 top:
     en: TOP
     zh: 置顶
+rss:
+    en: RSS
+    zh: 订阅
+index:
+    en: Home
+    zh: 首页
