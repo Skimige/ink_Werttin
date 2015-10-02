@@ -43,10 +43,10 @@ more..
 
 ```
     copy:
-        - **ink_Werttin**/css
-        - **ink_Werttin**/js
-        - **ink_Werttin**/favicon.ico
-        - **ink_Werttin**/robots.txt
+        - ink_Werttin/css
+        - ink_Werttin/js
+        - ink_Werttin/favicon.ico
+        - ink_Werttin/robots.txt
         - source/images
 ``` 
 
