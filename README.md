@@ -8,7 +8,7 @@
 
 见 Release 页面 （此坑未填好）
 
-#### 使用
+#### 功能
 
 本主题默认字体为微软雅黑，~~对 `sans-serif` 和 `serif` 没啥好感~~
 
@@ -19,6 +19,34 @@
 文章内不支持头图功能~~（阉割）~~
 
 more..
+
+#### 打开姿势
+
+下载完整包，去掉 `-master` 后把文件夹扔到ink根目录。
+
+修改 `config.yml` 中下列字段如下：
+
+修改前：
+
+```
+    copy:
+        - theme/css
+        - theme/js
+        - theme/favicon.ico
+        - theme/robots.txt
+        - source/images
+```
+
+修改后：
+
+```
+    copy:
+        - ink_Werttin/css
+        - ink_Werttin/js
+        - ink_Werttin/favicon.ico
+        - ink_Werttin/robots.txt
+        - source/images
+``` 
 
 ## License
 
