@@ -16,4 +16,4 @@ An ink theme based on offical theme.
 
 ## License
 
-遵循 [Apache License 2.0](./LICENSE)
+遵循 [Apache License 2.0](https://github.com/Skimige/ink_Werttin/blob/master/LICENSE)
