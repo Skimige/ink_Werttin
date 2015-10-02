@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=1">
+        <meta name="keywords" content="{{range .Tags}}{{.}},{{end}}">
+        <meta name="description" content="{{.Title}}">
+        <link rel="stylesheet" href="{{.Site.Root}}/css/index.css">
+        <link rel="stylesheet" href="{{.Site.Root}}/css/github.css">
+        <link rel="shortcut icon" href="{{.Site.Root}}/favicon.png">
+        <title>{{.Title}}</title>
+    </head>
+    <body>
+        <article class="container">
+            {{template "header" .}}
+            <article class="main article">
+                <h1 class="title">{{.Title}}</h1>
+                <section class="info">
+                    <span class="date" data-time="{{.Date}}">
+                        <span class="from"></span>
+                        {{if .Update}}<span class="date" data-time="{{.Update}}">(<span class="from"></span> {{i18n "updated"}})</span>{{end}}
+                    </span>
+                    <span class="tags">{{range .Tags}}<a class="tag" href="{{$.Site.Root}}/tag/{{.}}/index.html">{{.}}</a>{{end}}</span>
+                </section>
+                <article class="content">{{.Content}}</article>
+                <section class="author">
+                    {{if .Author.Avatar}}<div class="avatar" style="background-image: url({{.Author.Avatar}});"></div>{{end}}
+                    <a class="name">{{.Author.Name}}</a>
+                    <div class="intro">{{.Author.Intro}}</div>
+                </section>
+                <section class="recommend">
+                    {{if .Prev}}
+                    <section class="nav prev{{if .Next}} more{{end}}">
+                        <div class="head">{{i18n "prev_reading"}}</div>
+                        <a class="link" href="{{.Site.Root}}/{{.Prev.Link}}">{{.Prev.Title}}</a>
+                    </section>
+                    {{end}}
+                    {{if .Next}}
+                    <section class="nav next{{if .Prev}} more{{end}}">
+                        <div class="head">{{i18n "next_reading"}}</div>
+                        <a class="link" href="{{.Site.Root}}/{{.Next.Link}}">{{.Next.Title}}</a>
+                    </section>
+                    {{end}}
+                </section>
+                <section id="disqus_thread"></section>
+            </article>
+        </article>
+        {{template "footer" .}}
+        {{template "footer.js" .}}
+        <script src="{{.Site.Root}}/js/highlight.pack.js"></script>
+        <script src="{{.Site.Root}}/js/jquery.unveil.js"></script>
+        <script type="text/javascript">
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//{{.Site.Disqus}}.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+    </body>
+</html>

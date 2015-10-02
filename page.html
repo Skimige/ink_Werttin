@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=1">
+        <meta name="keywords" content="{{.Site.Title}}, {{.Site.Subtitle}}">
+        <meta name="description" content="{{.Site.Subtitle}}">
+        <link rel="stylesheet" href="{{.Site.Root}}/css/index.css">
+        <link rel="shortcut icon" href="{{.Site.Root}}/favicon.png">
+        <title>{{.Site.Title}}</title>
+    </head>
+    <body>
+        <article class="container">
+            {{template "header" .}}
+            <article class="main page">
+                <header class="header site">
+                    {{if .TagName}}
+                        <h1 class="tag">{{.TagName}}</h1>
+                        <h2 class="tag-sub">{{.TagCount}} {{i18n "articles"}}</h2>
+                    {{else}}
+                        <h1 class="title">{{.Site.Title}}</h1>
+                        <h2 class="subtitle">{{.Site.Subtitle}}</h2>
+                    {{end}}
+                </header>
+                <ul class="article-list">
+                    {{range .Articles}}
+                    <li class="article">
+                        <a class="title" href="{{$.Site.Root}}/{{.Link}}">{{if .Top}}<span class="top">[{{i18n "top"}}]</span>{{end}}{{.Title}}</a>
+                        {{if .Topic}}<div class="topic" style="background-image:url({{.Topic}});"></div>{{end}}
+                        {{if .Preview}}<section class="preview">{{.Preview}}...</section>{{end}}
+                        <section class="info">
+                            <span class="date" data-time="{{.Date}}">
+                                <span class="from"></span>
+                                {{if .Update}}<span class="date" data-time="{{.Update}}">(<span class="from"></span> {{i18n "updated"}})</span>{{end}}
+                            </span>
+                            <span class="tags">
+                            {{range .Tags}}<a class="tag" href="{{$.Site.Root}}/tag/{{.}}/index.html">{{.}}</a>{{end}}
+                            </span>
+                        </section>
+                    </li>
+                    {{end}}
+                </ul>
+                <section class="page-nav">
+                    {{if .Prev}}<a class="prev" href="{{.Site.Root}}/{{.Prev}}">{{i18n "prev_page"}}</a>{{end}}
+                    {{if ne .Total 1}}<span class="nav">{{.Page}} / {{.Total}}</span>{{end}}
+                    {{if .Next}}<a class="next" href="{{.Site.Root}}/{{.Next}}">{{i18n "next_page"}}</a>{{end}}
+                </section>
+            </article>
+        </article>
+        {{template "footer" .}}
+    </body>
+    {{template "footer.js" .}}
+</html>

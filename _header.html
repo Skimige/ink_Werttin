@@ -1,0 +1,7 @@
+<!-- a class="index" href="{{.Site.Root}}/">{{.Site.Title}}</a -->
+<ul class="menu">
+    {{if .Site.Url}}<li class="menu-item"><a href="{{.Site.Root}}/atom.xml">订阅</a></li>{{end}}
+    <li class="menu-item"><a href="{{.Site.Root}}/archive.html">{{i18n "archive"}}</a></li>
+    <!-- li class="menu-item"><a href="{{.Site.Root}}/tag.html">{{i18n "tag"}}</a></li -->
+    <li class="menu-item"><a href="{{.Site.Root}}/">首页</a></li>
+</ul>
