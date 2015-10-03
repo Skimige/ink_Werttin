@@ -13,10 +13,10 @@
   font-style: normal;
 }
 .font-main {
-  font-family: "Dengxian", Arial, Heltivitar, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  font-family: Arial, Heltivitar, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei";
 }
 .font-content {
-  font-family: PTSerif-Regular, "Dengxian", Georgia, Cambria, "Times New Roman", Times, serif, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  font-family: PTSerif-Regular, "Dengxian", Georgia, Cambria, "Times New Roman", Times, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei";
 }
 .font-code {
   font-family: consolas, monaco, "Source Code Pro", monospace;
@@ -25,7 +25,7 @@ html,
 body,
 input {
   margin: 0;
-  font-family: "Dengxian", Arial, Heltivitar, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  font-family: Arial, Heltivitar, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei";
 }
 html,
 body {
@@ -63,7 +63,6 @@ a:hover {
   z-index: 1;
   font-weight: lighter;
   right: 0;
-  font-family: 'Open Sans';
 }
 .menu .menu-item {
   float: right;
@@ -104,7 +103,7 @@ a.name {
   cursor: default;
 }
 .main .site .subtitle {
-  font-family: PTSerif-Regular, Georgia, Cambria, "Times New Roman", Times, serif, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  font-family: PTSerif-Regular, Georgia, Cambria, "Times New Roman", Times, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei";
   font-style: italic;
   margin-top: 10px;
   font-size: 16px;
@@ -170,7 +169,7 @@ a.name {
   padding-bottom: 10px;
 }
 .main.page .article-list .article .preview {
-  font-family: PTSerif-Regular, Georgia, Cambria, "Times New Roman", Times, serif, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  font-family: PTSerif-Regular, Georgia, Cambria, "Times New Roman", Times, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei";
   display: inline-block;
   letter-spacing: 0.5px;
   line-height: 28px;
@@ -184,7 +183,7 @@ a.name {
   color: #333;
   font-size: 14px;
   cursor: default;
-  font-family: Arial, Heltivitar, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  font-family: Arial, Heltivitar, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei";
 }
 .main.page .article-list .article .avatar {
   width: 20px;
@@ -203,7 +202,7 @@ a.name {
   color: #ccc;
 }
 .main.page .article-list .article .tags {
-  font-family: PTSerif-Regular, Georgia, Cambria, "Times New Roman", Times, serif, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  font-family: PTSerif-Regular, Georgia, Cambria, "Times New Roman", Times, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei";
   margin-left: 10px;
   float: right;
 }
@@ -272,7 +271,7 @@ a.name {
 .main.article .info {
   margin-top: 10px;
   font-size: 14px;
-  font-family: Arial, Heltivitar, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  font-family: Arial, Heltivitar, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei";
 }
 .main.article .info .avatar {
   width: 20px;
@@ -292,7 +291,7 @@ a.name {
   margin-right: 5px;
 }
 .main.article .info .tags {
-  font-family: PTSerif-Regular, Georgia, Cambria, "Times New Roman", Times, serif, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  font-family: PTSerif-Regular, Georgia, Cambria, "Times New Roman", Times, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei";
   color: #ccc;
 }
 .main.article .info .tags .tag {
@@ -301,7 +300,7 @@ a.name {
   text-decoration: none;
 }
 .main.article .content {
-  font-family: PTSerif-Regular, Georgia, Cambria, "Times New Roman", Times, serif, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  font-family: PTSerif-Regular, Georgia, Cambria, "Times New Roman", Times, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei";
   margin-top: 70px;
   font-size: 16px;
   letter-spacing: 1px;
@@ -313,7 +312,7 @@ a.name {
 .main.article .content h4,
 .main.article .content h5,
 .main.article .content h6 {
-  font-family: Arial, Heltivitar, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  font-family: Arial, Heltivitar, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei";
   font-weight: lighter;
 }
 .main.article .content h1 + p,
@@ -499,7 +498,7 @@ a.name {
   font-size: 16px;
 }
 .main.article .author .intro {
-  font-family: PTSerif-Regular, Georgia, Cambria, "Times New Roman", Times, serif, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  font-family: PTSerif-Regular, Georgia, Cambria, "Times New Roman", Times, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei";
   font-style: italic;
   margin-top: 8px;
   font-size: 14px;
@@ -526,7 +525,7 @@ a.name {
 .main.archive .site .subtitle,
 .main.tag .site .subtitle {
   text-align: left;
-  font-family: PTSerif-Regular, Georgia, Cambria, "Times New Roman", Times, serif, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  font-family: PTSerif-Regular, Georgia, Cambria, "Times New Roman", Times, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei";
 }
 .main.archive .header,
 .main.tag .header {
@@ -544,7 +543,7 @@ a.name {
 .main.tag .header .subtitle {
   margin-top: 10px;
   padding: 3px 5px;
-  font-family: PTSerif-Regular, Georgia, Cambria, "Times New Roman", Times, serif, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  font-family: PTSerif-Regular, Georgia, Cambria, "Times New Roman", Times, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei";
   font-style: italic;
   color: #bbb;
 }
