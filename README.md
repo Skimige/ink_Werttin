@@ -6,6 +6,8 @@
 
 #### 预览
 
+最简单的方法是去参观窝的博客辣~ [传送门](http://ikevin.in)
+
 [首页](https://cloud.githubusercontent.com/assets/9017470/10266999/daf3a772-6ab1-11e5-9449-5bcc47eabbc7.gif)
 
 [文章页](https://cloud.githubusercontent.com/assets/9017470/10267001/06981ca0-6ab2-11e5-9f6e-ad007b3e66b6.gif)
