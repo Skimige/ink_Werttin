@@ -496,7 +496,7 @@ a.name {
 }
 .main.article .author .name {
   margin-top: 20px;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 16px;
 }
 .main.article .author .intro {
