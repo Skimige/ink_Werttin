@@ -102,10 +102,9 @@ a.name {
   font-size: 36px;
   text-align: center;
   cursor: default;
-  font-family: Times;
+  font-family: PTSerif-Regular, 'Open Sans', "Dengxian", "Microsoft Jhenghei UI Light", "Microsoft Jhenghei Light";
 }
 .main .site .subtitle {
-  font-family: PTSerif-Regular, Georgia, Cambria, "Times New Roman", Times, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei";
   font-style: italic;
   margin-top: 10px;
   font-size: 16px;
