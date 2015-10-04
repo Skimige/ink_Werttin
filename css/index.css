@@ -269,6 +269,7 @@ a.name {
   color: #4A4A4A;
   font-size: 30px;
   line-height: 42px;
+  font-family: PTSerif-Regular, 'Open Sans', Dengxian, "Microsoft Yahei UI Light", "Microsoft Yahei Light";
 }
 .main.article .info {
   margin-top: 10px;
@@ -314,8 +315,8 @@ a.name {
 .main.article .content h4,
 .main.article .content h5,
 .main.article .content h6 {
-  font-family: Arial, Heltivitar, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei";
-  font-weight: lighter;
+  font-family: PTSerif-Regular, 'Open Sans', Dengxian, "Microsoft Yahei UI", "Microsoft Yahei";
+  font-weight: normal;
 }
 .main.article .content h1 + p,
 .main.article .content h2 + p,
