@@ -6,13 +6,17 @@
 
 #### 预览
 
-Waiting For.
+[首页](https://cloud.githubusercontent.com/assets/9017470/10266999/daf3a772-6ab1-11e5-9449-5bcc47eabbc7.gif)
+
+[文章页](https://cloud.githubusercontent.com/assets/9017470/10267001/06981ca0-6ab2-11e5-9f6e-ad007b3e66b6.gif)
+
+[归档页](https://cloud.githubusercontent.com/assets/9017470/10267003/26286408-6ab2-11e5-97b4-1cf25b14a98a.gif)
 
 #### 下载
 
 见 [Release 页面](https://github.com/Skimige/ink_Werttin/releases) 。
 
-> 目前的最新版本：Beta @ 1.0.1
+> 目前的最新版本：Beta @ 1.0.2
 
 #### 功能
 
