@@ -16,7 +16,7 @@
   font-family: Arial, Heltivitar, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei";
 }
 .font-content {
-  font-family: PTSerif-Regular, "Dengxian", Georgia, Cambria, "Times New Roman", Times, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  font-family: PTSerif-Regular, Georgia, Cambria, "Times New Roman", Times, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei";
 }
 .font-code {
   font-family: consolas, monaco, "Source Code Pro", monospace;
@@ -102,7 +102,7 @@ a.name {
   font-size: 36px;
   text-align: center;
   cursor: default;
-  font-family: PTSerif-Regular, 'Open Sans', "Dengxian", "Microsoft Jhenghei UI Light", "Microsoft Jhenghei Light";
+  font-family: PTSerif-Regular, 'Open Sans', "Microsoft Jhenghei UI Light", "Microsoft Jhenghei Light";
 }
 .main .site .subtitle {
   font-style: italic;
@@ -327,17 +327,17 @@ a.name {
   margin-top: 10px;
 }
 .main.article .content h1 {
-  font-size: 28px;
+  font-size: 32px;
   margin-top: 40px;
   margin-bottom: 10px;
 }
 .main.article .content h2 {
-  font-size: 24px;
+  font-size: 26px;
   margin-top: 40px;
   margin-bottom: 10px;
 }
 .main.article .content h3 {
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 40px;
   margin-bottom: 10px;
 }
@@ -611,7 +611,7 @@ a.name {
   position: relative;
   height: 32px;
   margin-top: -33px;
-  font-family: Times, 'Open Sans', "Dengxian", "Microsoft Jhenghei UI Light", "Microsoft Jhenghei Light";
+  font-family: Times, 'Open Sans', "Microsoft Jhenghei UI Light", "Microsoft Jhenghei Light";
 }
 .footer span {
   padding: 8px 15px;
