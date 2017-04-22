@@ -2,11 +2,15 @@
 
 > An ink theme based on offical theme.
 
+## Warning
+
+本主题暂时不会更新，如果遇到不兼容情况，~~请自己捣鼓捣鼓~~。
+
 ## 使用说明
 
 ### 预览
 
-最简单的方法是去参观我的博客辣~ [传送门](http://ikevin.in)
+最简单的方法是去参观我的博客~ [传送门](http://ikevin.in)
 
 以下截图可能有点旧。
 
