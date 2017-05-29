@@ -18,14 +18,16 @@
 
 ### 下载
 
-见 [Release 页面](https://github.com/Skimige/ink_Werttin/releases) 。
+对于旧版 InkPaper（即主题目录下不包含 `config.yml` 的版本），见 [Release 页面](https://github.com/Skimige/ink_Werttin/releases) 。
 
 > 目前的最新版本：Beta @ 1.0.3
+
+对于新版 InkPaper，请点击 [这里](https://github.com/Skimige/ink_Werttin/archive/master.zip)
 
 ### 功能
 
  - 默认字体为 `Microsoft Yahei UI` ，对 `sans-serif` 和 `serif` 没啥好感
- - 支持 zh (Chinese) / en (English) 两种语言，请修改根目录的 `config.yml` 中此处：
+ - 支持 zh (Chinese) / en (English) / ru (Russian) / jp (Japanese) 四种语言（后两种感谢原作者 @imeoer），请修改根目录的 `config.yml` 中此处：
 
 >     lang: **
 
@@ -48,15 +50,6 @@ site:
     ...
     theme: theme
     ...
-build:
-    ...
-    copy:
-        - theme/css
-        - theme/js
-        - theme/favicon.ico
-        - theme/robots.txt
-        - source/images
-    ...
 ```
 
 修改后：
@@ -66,18 +59,9 @@ site:
     ...
     theme: ink_Werttin
     ...
-build:
-    ...
-    copy:
-        - ink_Werttin/css
-        - ink_Werttin/js
-        - ink_Werttin/favicon.ico
-        - ink_Werttin/robots.txt
-        - source/images
-    ...
 ``` 
 
-以上内容中，如果你的 `favicon.ico` 要替换或者修改为 PNG 格式的图片，请自行修改。
+在主题目录下的 `config.yml` 中，如果你的 `favicon.ico` 要替换或者修改为 PNG 格式的图片等，请自行修改。
 
 如果没有图片或者懒得设置，**请删除这一行，否则可能会报错。**
 
@@ -85,6 +69,8 @@ build:
 
 另：虽然确实是去掉了首页的几个头像，但在文章页评论框上，作者简介中的头像并没有去掉。
 所以…别忘了设置 `config.yml` 中的 `avatar` & `logo` ！
+
+**如有任何问题，欢迎即刻联系我或者提 issue，不过处理时间可能很长就是，因为很忙。**
 
 ## License
 
