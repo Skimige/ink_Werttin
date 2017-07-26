@@ -102,7 +102,7 @@ a.name {
   font-size: 36px;
   text-align: center;
   cursor: default;
-  font-family: PTSerif-Regular, 'Open Sans', "Microsoft Jhenghei UI Light", "Microsoft Jhenghei Light";
+  font-family: PTSerif-Regular, 'Open Sans', "Microsoft Yahei UI Light", "Microsoft Yahei Light";
 }
 .main .site .subtitle {
   font-style: italic;
@@ -151,7 +151,7 @@ a.name {
   text-decoration: none;
   color: #4A4A4A;
   display: block;
-  font-family: PTSerif-Regular, "Microsoft Yahei UI", "Microsoft Yahei";
+  font-family: PTSerif-Regular, "PingFang SC", "Microsoft Yahei UI", "Microsoft Yahei";
 }
 .main.page .article-list .article .title .top {
   color: #ccc;
@@ -269,7 +269,7 @@ a.name {
   color: #4A4A4A;
   font-size: 30px;
   line-height: 42px;
-  font-family: PTSerif-Regular, 'Open Sans', Dengxian, "Microsoft Yahei UI Light", "Microsoft Yahei Light";
+  font-family: PTSerif-Regular, 'Open Sans', "PingFang SC", "Microsoft Yahei UI Light", "Microsoft Yahei Light";
 }
 .main.article .info {
   margin-top: 10px;
