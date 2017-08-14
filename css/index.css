@@ -315,7 +315,7 @@ a.name {
 .main.article .content h4,
 .main.article .content h5,
 .main.article .content h6 {
-  font-family: PTSerif-Regular, 'Open Sans', Dengxian, "Microsoft Yahei UI", "Microsoft Yahei";
+  font-family: PTSerif-Regular, 'Open Sans', "PingFang SC", "Microsoft Yahei UI", "Microsoft Yahei";
   font-weight: normal;
 }
 .main.article .content h1 + p,
